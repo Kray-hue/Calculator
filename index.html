@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="screen">
+        <div id="history"></div>
+        <input type="text" id="display" placeholder="0" readonly></input>
+    </div>
+
+    <div id="keypad">
+        <!-- row 1 -->
+        <div class="button" id="clear">C</div>
+        <div class="button" id="parentheses">()</div>
+        <div class="button" id="percent">%</div>
+        <div class="button" id="divide">/</div>
+        <!-- row 2 -->
+        <div class="button" id="seven">7</div>
+        <div class="button" id="eight">8</div>
+        <div class="button" id="nine">9</div>
+        <div class="button" id="multiply">*</div>
+        <!-- row 3 -->
+        <div class="button" id="four">4</div>
+        <div class="button" id="five">5</div>
+        <div class="button" id="six">6</div>
+        <div class="button" id="subtract">-</div>
+        <!-- row 4 -->
+        <div class="button" id="one">1</div>
+        <div class="button" id="two">2</div>
+        <div class="button" id="three">3</div>
+        <div class="button" id="add">+</div>
+        <!-- row 5 -->
+        <div class="button" id="toggle-sign">+/-</div>
+        <div class="button" id="zero">0</div>
+        <div class="button" id="decimal">.</div>
+        <div class="button" id="equals">=</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
